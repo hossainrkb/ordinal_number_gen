@@ -1,0 +1,27 @@
+{
+    "name": "rkb/convert_to_ordinal",
+    "description": "This package has converted any interger number to it's ordinal number.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Rakib Hossain",
+        "email": "rakib.151045@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\OrdinalNumberServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.x-dev"
+    }
+}
